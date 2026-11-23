@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SiteVerum documentation</title>
+<script>
+if (location.pathname === "/streetview-v2" || location.pathname.startsWith("/streetview-v2/")) {
+  location.replace("/siteverum/" + location.pathname.slice("/streetview-v2".length).replace(/^\//, "") + location.search + location.hash);
+}
+</script>
+</head>
+<body>
+<p>SiteVerum documentation has moved to <a href="/siteverum/">its new address</a>.</p>
+</body>
+</html>
